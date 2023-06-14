@@ -1,9 +1,9 @@
 ![img2](for_GitHub/Screenshot_0.png)
 
-WebDeveloper's Life is a very simple game where the player can inpersonate a webdev and try to survive his typical day.
-The player will try to avoid all the enemies(the things that affect the webdev life ad errors etc, and that will make him loose lives), and to catch the things that will give him points.
+Developer's Life is a very simple game where the player can impersonate a dev and try to survive his typical day.
+The player will try to avoid all the enemies and catch the things that will give him points.
 The player will be able to choose what characters he wants to play with.
-In the first level the player will have onli a type of enemies and a type of points, but in the next levels every characters is going to have different enemies and different points and good enemies that will add him lives.
+In the first level, the player will have one type of enemy and a type of point, but in the next level, every character is going to have different enemies and different points and good NPS that will add him life.
 There's no winning condition but the losing condition is: no more lives.
 
 ---
