@@ -1,0 +1,94 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+  
+    h1 {
+      margin-bottom: 40px;
+      
+    }
+
+    .input {
+      margin-bottom: 40px;
+
+      input {
+        padding: 10px;
+        border: 3px solid $red-color;
+        background: $white-color; 
+        font-family: 'VT323';
+        font-size: 15px;
+      }
+    }
+  
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        flex: 1;
+        margin-right: 5px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .button {
+        width: 100%;
+        padding: 10px 53px;
+        background-color: $blue-color;
+        color: $white-color;
+        border: none;
+      }   //here or in components????
+  
+      .high-score-button {
+        width: 100%;
+        padding: 10px 25px;
+        background-color: $yellow-color;
+        color: $white-color;
+        border: none;
+      }
+
+      .rules {
+        width: 100%;
+        padding: 10px 47px;
+        background-color: $green-color;
+        color: $white-color;
+        border: none;
+      }
+    }
+
+  }
+
+@media (max-width: 730px) {
+  .intro {
+    h1 {
+      font-size: 70px;
+      line-height: 52px;
+    }
+
+    .buttons {
+      button {
+        font-size: 14px;
+      }
+      .button {
+        padding: 10px 20px;
+      }
+
+      .high-score-button {
+        padding: 10px 6px;
+      }
+
+      .rules {
+        padding: 10px 20px;
+      }
+    }
+
+  }
+}
+
+
+
+ 

@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+  
+main {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: $white-color;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+  .touch-area {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    .left-screen {
+      height: 100%;
+      width: 50%;
+      margin: 0;
+      float: left;
+    }
+
+    .right-screen {
+      height: 100%;
+      width: 50%;
+      margin: 0;
+      float: right;
+    }
+  }
+}

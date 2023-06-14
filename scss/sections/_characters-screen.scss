@@ -1,0 +1,130 @@
+.characters-screen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+
+    h1 {
+        flex: 1;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .characters-icons {
+        flex: 1;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        div {
+            flex : 1;
+        }
+
+        img {
+            width: 130px;
+
+            &.selected {
+                border: 5px solid $yellow-color;
+            }
+        }
+    }
+
+    .go-game {
+        flex: 1;
+        display: flex;
+        text-align: center;
+
+        div {
+            flex: 1;
+        }
+
+        button {
+            padding: 10px 55px;
+            color: $white-color;
+            border: none;
+        }
+
+        .button-play {   
+            background-color: $blue-color;
+        }
+
+        .button-back {   
+            background-color: $green-color;
+        }
+
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1024px) { 
+    .characters-screen {
+        h1 {
+          font-size: 70px;
+          line-height: 52px;
+        }
+  
+        .characters-icons {
+          img {
+              width: 100px;
+           }
+        }
+  
+        .go-game {
+          button {
+            font-size: 14px;
+            padding: 10px 30px;
+          }
+        }
+  
+    }
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+
+    .characters-screen {
+        h1 {
+          font-size: 70px;
+          line-height: 52px;
+        }
+  
+        .characters-icons {
+          img {
+              width: 80px;
+          }
+      }
+  
+        .go-game {
+          button {
+            font-size: 14px;
+            padding: 10px 30px;
+          }
+        }
+  
+      }
+}
+
+@media all and (max-width: 767px) and (min-width: 320px) {
+    .characters-screen {
+        padding: 10px;
+
+        h1 {
+        font-size: 40px;
+        line-height: 32px;
+        }
+
+        .characters-icons {
+            img {
+                width: 40px;
+            }
+        }
+
+        .go-game {
+            button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+

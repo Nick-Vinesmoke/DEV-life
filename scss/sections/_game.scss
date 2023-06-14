@@ -1,0 +1,109 @@
+.game {
+    text-align: center;
+    flex-direction: column;
+
+
+    header {
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .lives {
+      flex: 1;
+    }
+    
+    .score {
+      flex: 1;
+    }
+    
+    .label {
+      font-weight: bold; //in typo???
+    }
+    
+    .value {
+      font-style: italic; //in typo???
+    }
+
+    .canvas {
+      border-right: 3px solid $green-color;
+      border-left: 3px solid $blue-color;
+      margin-bottom: 10px;
+    }
+
+    .buttons-mobile {
+      
+      justify-content: space-between;
+      display: none;
+
+      div {
+        flex: 1;
+        text-align: left;
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+
+
+      .left {
+        padding: 10px 25px;
+        background-color: $blue-color;
+        color: $white-color;
+        border: none;
+      }
+  
+      .right {
+        padding: 10px 25px;
+        background-color: $green-color;
+        color: $white-color;
+        border: none;
+      }
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+  .game {
+
+    height: 100%;
+
+    .canvas {
+      margin-bottom: 30px;
+      height: 100%;
+    }
+
+    .buttons-mobile {
+      display: flex;
+      button {
+        font-size: 20px;
+        padding: 10px 30px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 320px) {
+  .game {
+
+    header {
+      font-size: 18px;
+    }
+
+    .canvas {
+      height: 100%;
+      margin-bottom: 0;
+    }
+    .buttons-mobile {
+      display: flex;
+      margin-bottom: 20px;
+      button {
+        font-size: 14px;
+        padding: 10px 30px;
+      }
+    }
+  }
+}
+  
+
+  

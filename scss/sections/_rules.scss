@@ -1,0 +1,197 @@
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100%;
+
+    .button-esc {
+        text-align: right;
+
+        button {
+            font-size: 80px;
+            background: none;
+            border: none;
+            color: $green-color;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        margin-bottom: 30px;
+
+        p {
+            font-size: 18px;
+            line-height: 20px;
+
+            &.game-intro {
+                font-size: 30px;
+                line-height: 28px;
+                color: $yellow-color;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            img {
+                width: 20px;
+            }
+        }
+        
+    }
+    
+    .images {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 50px;
+        }
+
+        .enemies {
+            flex: 1;
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            padding-top: 25px;
+    
+            div {
+                flex: 1;
+            }
+    
+        }
+    
+        .lives {
+            flex: 1;
+            width: 33%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+    
+            div {
+                flex: 1;
+            }
+    
+        }
+    
+        .points {
+            flex: 1;
+            width: 33%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            padding-top: 25px;
+    
+            div {
+                flex: 1;
+            }
+    
+        }
+    }
+
+    .rules {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+
+        p {
+            flex: 1;
+            text-align: center;
+            line-height: 16px;
+            font-size: 18px;
+        }
+    }
+
+
+}
+
+@media (max-width: 1600px) and (min-width: 1025px) { 
+    
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+    .description {
+
+        h1 {
+            font-size: 70px;
+            line-height: 52px;
+        }
+
+        .text {
+            margin-bottom: 30px;
+    
+            p {
+                font-size: 18px;
+                line-height: 20px;
+    
+                &.game-intro {
+                    font-size: 25px;
+                    line-height: 23px;
+                    color: $yellow-color;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                img {
+                    width: 20px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 320px) {
+    .container {
+        &.rules-screen {
+            width: 100%;
+        }
+    }
+    .description {
+
+        margin-bottom: 70px;
+
+        .button-esc {
+            button {
+                line-height: 20px;
+            }
+        }
+
+        h1 {
+            font-size: 70px;
+            line-height: 52px;
+        }
+
+        .text {
+            margin-bottom: 30px;
+    
+            p {
+                font-size: 13px;
+                line-height: 20px;
+    
+                &.game-intro {
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: $yellow-color;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                img {
+                    width: 20px;
+                }
+            }
+            
+        }
+    }
+}
