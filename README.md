@@ -34,11 +34,15 @@ node-sass --output-style compressed --source-map true --watch style.scss style.c
    <a href="https://www.donationalerts.com/r/nick_vinesmoke"><img src="https://img.shields.io/badge/Donationalerts-F37623?style=for-the-badge&logo=Cash%20App&logoColor=white"></a>
    <a href="https://patreon.com/NickVinesmoke"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"></a>
    
-   BTS <code>bc1qfe46xsewu00yhl0llzaxhz9re03y4al0w9p3v2</code>
+  BTC: <code>bc1qfe46xsewu00yhl0llzaxhz9re03y4al0w9p3v2</code>
   
-  ETH <code>0xeeA063838950D191881EdF0E31b4699B73aD20Ac</code>
+  ETH: <code>0xeeA063838950D191881EdF0E31b4699B73aD20Ac</code>
   
-  XMR: <code>83PXY1A4PvPWCwveY4cN5p5zFLKNF4KMGfzRnR4A8qPXRABzoHPoahUP4H6eP636FPYbkn76tzUJmcc2Lai3VFkLHdoe4QV</code>
+  XMR: <code>48jeXS4GGpEJ2Kswn3zRXc3wBqK2s9ojJEohE47KW9ZMPdtnCGTTJGjc7iQpNWSrmmZCCLsj4WDNVa88Mb6kTeJhJWbtbmo</code>
+
+  USDT: <code>0xeeA063838950D191881EdF0E31b4699B73aD20Ac</code>
+
+  LTC: <code>LWyarn3cnVyVahgjDpr4uokCFQbq39KDuc</code>
 
 ---
 ### 📲Contacts
